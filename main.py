@@ -97,7 +97,7 @@ def delete_original_folder_created_in_root():
     """
     cmd = "rm -r branch1"
     returned_value = subprocess.call(cmd, shell=True)
-    print("6")
+    print("7")
 
 
 delete_original_folder_created_in_root()
