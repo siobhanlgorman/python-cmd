@@ -68,6 +68,9 @@ move_branch1_results_folder_into_backup_dir()
 
 
 def rename_backup_folder_with_datestamp():
+    """
+    Renames branch1 in backup dir with datestamp attached.
+    """
 
     os.rename(
         "test_results_backup/branch1",
@@ -81,7 +84,7 @@ rename_backup_folder_with_datestamp()
 
 def delete_original_branch1_in_test_results():
     """
-    Deletes branch1 from test_results directory.
+    Deletes original branch1 from test_results directory.
     """
     cmd = "rm -r test_results/branch1"
     returned_value = subprocess.call(cmd, shell=True)
@@ -93,7 +96,7 @@ delete_original_branch1_in_test_results()
 
 def delete_original_folder_created_in_root():
     """
-    Deletes branch1 from test_results directory.
+    Deletes original branch1 from root.
     """
     cmd = "rm -r branch1"
     returned_value = subprocess.call(cmd, shell=True)
