@@ -56,7 +56,7 @@ def move_branch1_results_folder_into_backup_dir():
     """
     Moves branch1 from test_results dir into test_results_backup dir.
     """
-    cmd = "move test_results/branch1 test_results_backup"
+    cmd = "move C:/Users/siobh/Desktop/My_Projects/python-cmd/test_results/branch1 test_results_backup"
     returned_value = subprocess.call(cmd, shell=True)
     print("4 moved branch1 into test_results_backup dir")
 
