@@ -2,8 +2,6 @@
 import os
 import subprocess
 import time
-import calendar
-import datetime
 
 
 def main():
@@ -69,7 +67,7 @@ def rename_backup_folder_with_datestamp():
     """
 
     os.rename(
-        "test_results_backup/branch1",
+        "C:/Users/siobh/Desktop/My_Projects/python-cmd/test_results_backup/branch1",
         time.strftime("test_results_backup/branch1_%Y-%m-%d_%I-%M-%S_%p"),
     )
 
