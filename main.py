@@ -4,10 +4,10 @@ import time
 
 
 def main():
-    create_branch1()
-    create_results_file1()
-    move_results_file1_into_branch1()
-    move_branch1_into_test_results()
+    create_branch1()  # testing only
+    create_results_file1()  # testing only
+    move_results_file1_into_branch1()  # testing only
+    move_branch1_into_test_results()  # testing only
     move_branch1_results_folder_into_backup_dir()
     rename_backup_folder_with_datestamp()
     print("Cycle complete")
